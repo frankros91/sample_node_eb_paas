@@ -16,5 +16,5 @@ app.get("/", function (req, res) {
 });
 
 app.listen(process.env.PORT || 3000 , function () {
-  console.log('Express listening on port ' + process.env.PORT + ' or 3000');
+  console.log('Hey, Express is listening on port ' + process.env.PORT + ' or 3000');
 });
